@@ -6,7 +6,6 @@ import computer32;
 
 export namespace MIPS::sim::exec {
 struct Executable {
-
   std::vector<arch::Word> instructions{};
 
   void execute() {

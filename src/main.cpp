@@ -4,7 +4,7 @@ import compiler;
 
 int main() {
 
-  MIPS::sim::compiler::compile(SOLUTION_DIR R"(\src\test.txt)");
+  MIPS::compiler::compile(SOLUTION_DIR R"(\src\test.txt)");
 
   // MIPS::simulator::Computer{};
 }
